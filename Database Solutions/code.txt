@@ -1,0 +1,2 @@
+pgfutter_windows_amd64 --host "localhost" --port "5432" --db "your_dbname" --schema "public" --table "your_tablename" 
+		       --user "postgres" --pw "your_password" csv -d "|" your_file.csv
