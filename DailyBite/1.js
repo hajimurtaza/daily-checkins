@@ -1,7 +1,6 @@
-let string1 = "The Daily Byte"
-let string2 = "Cat"
-let string3 = "civic"
-
+let s1 = "The Daily Byte"
+let s2 = "Cat"
+let s3 = "civic"
 
 // Looping in reverse, start from array.length-1 until 0
 // Iterating over index:
@@ -11,14 +10,13 @@ let string3 = "civic"
 
 // Time complexity O(N)
 var answer = function (string){
-  for (let index = string.length-1; index >= 0; index--) {
-    const element = string[index];
+  for (let i = string.length-1; i >= 0; i--) {
+    const element = string[i];
     console.log(element);
-    
   }
 }
 
 // Possible solutions could be inplace replacements, see how it works
-answer(string1)
-answer(string2)
-answer(string3)
+answer(s1)
+answer(s2)
+answer(s3)
